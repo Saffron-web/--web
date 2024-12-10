@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Уебсайт за шафран - най-ценната подправка в света">
+    <title>Шафран - Златото на подправките</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3efea;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ff6f61, #ff3e4d);
+            color: white;
+            padding: 2em 0;
+            text-align: center;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1em 0;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #ff6f61;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #ff6f61;
+            color: white;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        .intro {
+            text-align: center;
+        }
+        .intro h1 {
+            font-size: 2.5em;
+            color: #ff3e4d;
+        }
+        .intro p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5em;
+            margin: 1.5em 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h3 {
+            color: #ff3e4d;
+        }
+        .image-frame {
+            border: 5px solid #ff6f61;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 1em auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 50%;
+        }
+        .image-frame img {
+            width: 100%;
+            height: auto%;
+            display: block;
+            margin: 0 auto;
+        }
+        .image-frame:hover {
+            transform: scale(1.05);
+        }
+        .price-section {
+            text-align: center;
+            background: #fff4e6;
+            padding: 2em;
+            margin: 2em 0;
+            border: 1px solid #ffd6b3;
+            border-radius: 10px;
+        }
+        .price-section h2 {
+            font-size: 2em;
+            color: #ff3e4d;
+        }
+        .price-section p {
+            font-size: 1.5em;
+            color: #555;
+            margin: 0.5em 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+            margin-top: 2em;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Шафран - Златото на подправките</h1>
+    </header>
+    <nav>
+        <a href="#about">За шафрана</a>
+        <a href="#benefits">Ползи</a>
+        <a href="#price">Цени</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="intro">
+            <h1>За шафрана</h1>
+            <p>Шафранът е най-ценната подправка в света, известна със своя уникален аромат, вкус и лечебни свойства. Произвежда се от цветовете на шафрановия минзухар (<i>Crocus sativus</i>), като за събиране на 1 кг шафран са нужни около 150 000 цвята. Шафранът се използва от древността в различни култури заради своите свойства, включително като подправка, оцветител и дори лекарство. Най-големите производители на шафран днес са Иран, Испания и Индия.</p>
+            <div class="image-frame">
+                <img src="шафраново поле.jpg" alt="Шафранови полета" width="50%" height="50%">
+            </div>
+            <p>Шафрановите полета са невероятно зрелище, особено по време на прибиране на реколтата. Цветът на шафрановия минзухар е нежен и красив, а ароматът му е несравним.</p>
+            <div class="image-frame">
+                <img src="събиране на шафран.jpg" alt="Събиране на шафран" width="50%" height="50%">
+            </div>
+            <p>Събирането на шафран е трудоемък процес, който изисква внимание и умения. Това е една от причините шафранът да бъде толкова ценен.</p>
+        </section>
+        <section id="benefits">
+            <h2>Ползи от шафрана</h2>
+            <div class="card">
+                <h3>Здравословни ползи</h3>
+                <div class="image-frame">
+                    <img src="шафран и здраве.jpg" alt="Шафран и здраве" width="50%" height="50%">
+                </div>
+                <p>Шафранът е известен със своите антиоксидантни свойства, които помагат за борба със свободните радикали в организма. Той има противовъзпалителни ефекти и може да подпомогне здравето на мозъка, да намали симптомите на депресия и да подобри настроението. Известно е също, че шафранът подпомага сърдечно-съдовата система и регулира кръвното налягане.</p>
+            </div>
+            <div class="card">
+                <h3>Кулинарни приложения</h3>
+                <div class="image-frame">
+                    <img src="Ястия с шафран.jpg" alt="Ястия с шафран" width="50%" height="50%">
+                </div>
+                <p>Шафранът е незаменим в кулинарията, където добавя богат аромат, ярък цвят и изтънчен вкус на ястията. Използва се в традиционни рецепти като паеля, ризото миланезе и различни десерти.</p>
+            </div>
+        </section>
+        <section id="price" class="price-section">
+            <h2>Висококачествен шафран на достъпна цена</h2>
+            <p>Нашият шафран се предлага само за <strong>10 лева за грам</strong>. Гарантираме отлично качество, внимателно производство и уникален вкус!</p>
+            <p>Свържете се с нас, за да направите поръчка или да научите повече.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <p>Свържете се с нас на:</p>
+            <ul>
+                <li>Мария Георгиева: <a href="tel:+359893470401">0893470401</a></li>
+                <li>Email: <a href="mailto:mariqmariq545@gmail.com">mariqmariq545@gmail.com</a></li>
+                <li>Email: <a href="mailto:warwork1997@gmail.com">warwork1997@gmail.com</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Шафран България. Всички права запазени. <a href="#">Политика за поверителност</a></p>
+    </footer>
+</body>
+</html>
